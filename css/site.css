@@ -1,0 +1,167 @@
+body {
+  font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, freesans;
+  margin: 0px;
+  -webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	cursor: default;
+  overflow-y: scroll;
+}
+
+#div_tree {
+	font: 10px Verdana, sans-serif;
+  display: inline-block;
+  width: 300px;
+  margin-left: 10px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.margin_top_10 {
+  margin-top: 10px;
+}
+
+.top {
+  width: 70%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flags {
+  position: absolute;
+  right: 80px;
+  top: 10px;
+}
+
+.content {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+}
+
+.about {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about_me_div {
+  height: 188px;
+  width: 100%;
+}
+
+.about_me_img {
+  width: 35%;
+  float: left;
+}
+
+.about_me_text {
+  text-align: justify;
+  text-indent: 30px;
+  line-height: 20px;
+  width: 65%;
+  float: right;
+}
+
+.content_title0 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #7049B7;
+  border-bottom: 1px solid #D4D4D4;
+  margin-bottom: 30px;
+}
+
+.content_title1 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #4268C5;
+  border-bottom: 1px solid #D4D4D4;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.content_title2 {
+  font-size: 18px;
+  color: #4268C5;
+  border-bottom: 1px dashed #D4D4D4;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.content_ul {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 20px;
+  padding-left: 20px;
+}
+
+.content_li {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-indent: 0px;
+}
+
+.content_li_left {
+  display: inline-block;
+  text-align: justify;
+}
+
+.content_li_right {
+  display: inline-block;
+  float: right;
+}
+
+.div_title {
+  margin-top: 40px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  vertical-align: top;
+  display: inline-block;
+  width: 30%;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-style: italic;
+    font-size: 16px;
+    color: #7049B7;
+}
+
+.div_menu {
+  display: inline-block;
+width: 65%;
+}
+
+.main_menu {
+  font-size: 18px;
+  text-align: center;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  padding-top: 120px;
+  background: #fff url('../images/range2.png') no-repeat;
+}
+
+.main_menu_item {
+  display: inline-block;
+  margin-right: 20px;
+  padding: 10px;
+}
+
+.selected {
+  color: #7049B7;
+}
+
+.main_menu_item_last {
+  display: inline-block;
+  padding: 10px;
+}
