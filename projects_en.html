@@ -103,7 +103,7 @@
 				div_log = document.getElementById('div_log');
 
 				//Loop to create test nodes
-				for (var i=1; i<10; i++) {
+				for (var i=1; i<5; i++) {
 					node1 = tree.createNode('Level 0 - Node ' + i,false,'images/star.png',null,null,'context1');
 					for (var j=1; j<5; j++) {
 						node2 = node1.createChildNode('Level 1 - Node ' + j, false, 'images/blue_key.png',null,'context1');
@@ -115,6 +115,9 @@
 
 				//Rendering the tree
 				tree.drawTree();
+
+        tree.childNodes[0].expandNode();
+        tree.childNodes[0].childNodes[0].expandNode();
 
         var v_colors = ['rgb(228, 154, 102)'];
 
